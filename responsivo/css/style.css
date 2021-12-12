@@ -1,0 +1,50 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.containerlogo{
+    height:4vw;
+    background-color :rgb(174, 224, 220);
+    padding:0.5vw;
+}
+.containerlogo img{
+   max-height:100%;
+      }
+.content{
+    background-image: url('./../images/background.png');
+    background-repeat: no-repeat;
+	background-size: cover;
+	padding: auto;
+	margin: auto;
+    height: 100%;
+}
+.containerVideo{
+    width: 48vw;
+    height: 27vw;
+    padding: 8vw;
+    margin:0 ;
+}
+.video{
+    width: 100%;
+   
+}
+.mediaPalyer{
+    position: absolute;
+    top:0;
+    width: 100%;
+    height: 100%;
+    text-align:center;
+}
+.btn{
+  position: relative;  
+  width:  2.7vw;
+  padding: 0.5vw;
+  top:100%;
+  transform: translate(50% ,-100%)
+}
+footer{
+    background-color :rgb(46, 109, 104);
+    text-align: center;
+    padding: 0.5vw;
+    color: seashell;
+}

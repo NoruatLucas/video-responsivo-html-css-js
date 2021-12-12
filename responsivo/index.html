@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>VideoResponsivofocoWeb</title>
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+</head>
+
+<body>
+    <header>
+        <div class="containerlogo">
+            <img id="logo" src="./images/logo.png" alt="logo lineage2">
+        </div>
+    </header>
+    <section class="content">
+
+        <div class="containerVideo">
+            <video id="video1" class="video" src="./video/promo.mp4" alt="video promo lineage2"></video>
+           
+           
+            <div class="mediaPlayer" onmouseover="onOver(this)" onmouseout="onOut(this)">
+                <img class="btn" onclick="back()" src="./images/back.png">
+                <img class="btn" onclick="play()" src="./images/play.png">
+                <img class="btn" onclick="pause()" src="./images/pause.png">
+                <img class="btn" onclick="stop()" src="./images/stop.png">
+                <img class="btn" onclick="forward()" src="./images/foward.png">
+                <img class="btn" onclick="slow()" src="./images/decrease.png">
+                <img class="btn" onclick="fast()" src="./images/increase.png">
+                <img class="btn" onclick="volumeDown()" src="./images/volume_down.png">
+                <img class="btn" onclick="volumeUp()" src="./images/volume_up.png">
+            </div>
+            <script src="./script/script.js"></script>
+
+        </div>
+
+    </section>
+    <footer>
+        <h2>Desenvolvido por Lucas Rocha</h2>
+    </footer>
+
+
+
+</body>
+
+</html>
